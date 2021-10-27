@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Okan SARAC portfolio</title>
+		<title>Titanic</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -19,7 +19,6 @@
 				<!-- Header -->
 					<header id="header">
 						<div class="inner">
-
 
 							<!-- Nav -->
 								<nav>
@@ -43,73 +42,28 @@
 				<!-- Main -->
 					<div id="main">
 						<div class="inner">
-							<header>
-								<h1>Okan Sarac's Portfolio</h1>
-								<p>Welcome to my portfolio website ! I am a graduate from Solvay Brussels School in Management Science
-									 looking for my first position as data analyst.
-									Here you will find my personal projects where I display my data analysis 
-									skills mainly Python (Pandas, Matplotlib, Scikit), SQL and Tableau. <br>
-								</p>
-							</header>
-							<section class="tiles">
-								<article class="style5">
-									<span class="image">
-										<img src="images/manga1.jpg" alt="" />
-									</span>
-									<a href="project-titanic.html">
-										<h2>Manga (In progress)</h2>
-										<div class="content">
-											<p>Webscraping, Cleaning, Storage in database and analysis of data about Mangas</p>
-										</div>
-									</a>
-								</article>
-								<article class="style2">
-									<span class="image">
-										<img src="images/Titanic.jpg" alt="" />
-									</span>
-									<a href="project-titanic.html">
-										<h2>Titanic</h2>
-										<div class="content">
-											<p>Analysis, prediction and Tableau dashboard of the famous Titanic dataset</p>
-										</div>
-									</a>
-								</article>
-								<article class="style6">
-									<span class="image">
-										<img src="images/pic02.jpg" alt="" />
-									</span>
-									<a href="">
-										<h2>Soon</h2>
-										<div class="content">
-											<p>Come back later :)</p>
-										</div>
-									</a>
-								</article>
-								<article class="style3">
-									<span class="image">
-										<img src="images/pic03.jpg" alt="" />
-									</span>
-									<a href="">
-										<h2>Soon</h2>
-										<div class="content">
-											<p>I am just starting, watch me !</p>
-										</div>
-									</a>
-								</article>
-								
-								<article class="style1">
-									<span class="image">
-										<img src="images/pic09.jpg" alt="" />
-									</span>
-									<a href="">
-										<h2>Soon</h2>
-										<div class="content">
-											<p>It will be full of projects one day</p>
-										</div>
-									</a>
-								</article>
-								
-							</section>
+							<h1>Manga database creation and analysis</h1>
+							<p>This project involves mangas which I grew up reading and watching adaptations of. By webscraping the net I will look for
+                                data on mangas, their rating, their adaptation, their volume sales... All this data can be useful to study some questions from the
+                                simplest such as which genre is the best rated, how are manwhas (korean mangas) growing, what are the trends (are new mangas shorter?)
+                                to more complex questions such as the impact of a good rated episode on the manga sales,... </br>
+
+                                All those questions can be useful for a manga editor and help it make decisions between adapting the manga as a film or an anime, 
+                                or understand which themes attracts more people...</br>
+
+                                In this case I am working for myself to understand the sector more or to share it with others.</br></br>
+
+                                I first designed the database but I may encounter new data when looking for it so it is still subject to change
+							</p>
+							 
+							<p> <a target="_blank" rel="noopener noreferrer" href="https://drawsql.app/18/diagrams/manga"><strong> → Database design </strong></a> </p>
+
+							<p>We first start with the Manga table and we will use myanimelist.com to gather our data, we will webscrap every manga (more than 56.000),
+							but at this step I don't know yet if I will gather volume sales and adaptation information of all these mangas. Maybe I will choose a threshold and
+                            work with the top 5000 most famous. 
+							</p>
+
+							<p> <a target="_blank" rel="noopener noreferrer" href="https://nbviewer.org/github/OkanSARAC/Manga/blob/main/MangaScraping1.ipynb"><strong> → Webscraping of Manga Table </strong></a> </p>
 						</div>
 					</div>
 
