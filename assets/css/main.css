@@ -2572,7 +2572,7 @@ input, select, textarea {
 		-webkit-flex-wrap: wrap;
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
-		postiion: relative;
+		position: relative;
 		margin: -2.5em 0 0 -2.5em;
 	}
 
@@ -2730,7 +2730,7 @@ input, select, textarea {
 			}
 
 			.tiles article.style7 > .image:before {
-				background-color: rgb(236, 184, 88);
+				background-color: #dba42c;
 			}
 
 			body:not(.is-touch) .tiles article:hover > .image {
